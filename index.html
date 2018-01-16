@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+   <head>
+   	<meta charset="utf-8">
+     <title>穿越四季 人机相恋</title>
+
+      <style> 
+         body {
+            background: #dddddd;
+         }
+
+         #canvas {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            margin: 20px;
+            background: #ffffff;
+            border: thin solid #aaaaaa;
+         }
+      </style>
+   </head>
+
+  <body>
+    <canvas id='canvas' width='1400' height='800'>
+      Canvas not supported
+    </canvas>
+    <audio src = 'mp3/bg.mp3' id="audio1"></audio>
+    <audio src = 'mp3/mp3For2.mp3' id="audioSpring"></audio>
+    <audio src = 'mp3/mp3For3.mp3' id="audioSummer"></audio>
+    <audio src = 'mp3/mp3For4.mp3' id="audioAutumn"></audio>
+    <audio src = 'mp3/mp3For1.mp3' id="audioWinter"></audio>
+    <audio src = 'mp3/mp3ForFail.mp3' id="audioFail"></audio>
+    <audio src = 'mp3/mp3ForWin.mp3' id="audioSuccess"></audio>
+    <script src='js/data.js'></script>
+    <script src='js/draw.js'></script>
+    <script src='js/page.js'></script>
+    <script src='js/animate.js'></script>
+    <script src='js/main.js'></script>
+    <script  src="js/requestNextAnimationFrame.js"></script>
+  </body>
+</html>
